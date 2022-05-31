@@ -1,4 +1,4 @@
-FROM python:3.9-alpine3.13
+FROM tiangolo/meinheld-gunicorn:python3.8
 
 RUN make install
 
