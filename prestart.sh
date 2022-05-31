@@ -1,4 +1,4 @@
 #! /usr/bin/env bash
 
-python manage.py collectstatic --noinput
-python manage.py migrate
+python test_deploy/manage.py collectstatic --noinput
+python test_deploy/manage.py migrate
